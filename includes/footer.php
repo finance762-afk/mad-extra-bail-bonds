@@ -98,7 +98,7 @@ $_phoneRaw = preg_replace('/\D/', '', $phone);
             </p>
             <ul>
               <?php foreach ($areas as $area): ?>
-              <li><a href="/service-areas/<?php echo htmlspecialchars($area['slug']); ?>/"><?php echo htmlspecialchars($area['name']); ?></a></li>
+              <li><a href="/areas/<?php echo htmlspecialchars($area['slug']); ?>/"><?php echo htmlspecialchars($area['name']); ?></a></li>
               <?php endforeach; ?>
             </ul>
             <?php endforeach; ?>

@@ -60,8 +60,8 @@ if (!function_exists('isActivePage')) {
         </li>
 
         <li>
-          <a href="/service-areas/"
-             <?php if (isActivePage('service-areas')): ?>aria-current="page"<?php endif; ?>>
+          <a href="/areas/"
+             <?php if (isActivePage('areas')): ?>aria-current="page"<?php endif; ?>>
             Service Areas
           </a>
         </li>

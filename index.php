@@ -1605,7 +1605,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="county-heading"><?php echo htmlspecialchars($county); ?></div>
       <div class="city-tag-row">
         <?php foreach ($areas as $area): ?>
-        <a href="/service-areas/<?php echo htmlspecialchars($area['slug']); ?>/" class="city-tag">
+        <a href="/areas/<?php echo htmlspecialchars($area['slug']); ?>/" class="city-tag">
           <?php echo htmlspecialchars($area['name']); ?>
         </a>
         <?php endforeach; ?>
@@ -1614,7 +1614,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <?php endforeach; ?>
 
     <div class="areas-cta-row" data-animate>
-      <a href="/service-areas/" class="btn btn-primary btn-lg">View All Service Areas →</a>
+      <a href="/areas/" class="btn btn-primary btn-lg">View All Service Areas →</a>
     </div>
 
   </div>

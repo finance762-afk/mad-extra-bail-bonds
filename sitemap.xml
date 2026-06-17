@@ -87,100 +87,100 @@
 
   <!-- ═══ SERVICE AREAS ═══ -->
   <url>
-    <loc>https://[domain]/service-areas/</loc>
+    <loc>https://[domain]/areas/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Palm Beach County -->
   <url>
-    <loc>https://[domain]/service-areas/delray-beach/</loc>
+    <loc>https://[domain]/areas/delray-beach/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/boca-raton/</loc>
+    <loc>https://[domain]/areas/boca-raton/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/west-palm-beach/</loc>
+    <loc>https://[domain]/areas/west-palm-beach/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/boynton-beach/</loc>
+    <loc>https://[domain]/areas/boynton-beach/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/lake-worth-beach/</loc>
+    <loc>https://[domain]/areas/lake-worth-beach/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/palm-beach-gardens/</loc>
+    <loc>https://[domain]/areas/palm-beach-gardens/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Broward County -->
   <url>
-    <loc>https://[domain]/service-areas/fort-lauderdale/</loc>
+    <loc>https://[domain]/areas/fort-lauderdale/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/pompano-beach/</loc>
+    <loc>https://[domain]/areas/pompano-beach/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/deerfield-beach/</loc>
+    <loc>https://[domain]/areas/deerfield-beach/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/coral-springs/</loc>
+    <loc>https://[domain]/areas/coral-springs/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/hollywood/</loc>
+    <loc>https://[domain]/areas/hollywood/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/margate/</loc>
+    <loc>https://[domain]/areas/margate/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Miami-Dade County -->
   <url>
-    <loc>https://[domain]/service-areas/miami/</loc>
+    <loc>https://[domain]/areas/miami/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/hialeah/</loc>
+    <loc>https://[domain]/areas/hialeah/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://[domain]/service-areas/miami-gardens/</loc>
+    <loc>https://[domain]/areas/miami-gardens/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

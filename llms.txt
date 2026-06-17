@@ -58,7 +58,7 @@ Licensed bail bondsman in Delray Beach, FL specializing in fast bail bond servic
 - Federal Bail Bonds: https://[domain]/services/federal-bail-bonds/ — Federal court bail bond services
 - Immigration Bail Bonds: https://[domain]/services/immigration-bail-bonds/ — ICE detention and immigration bonds
 - Warrant & Traffic Bonds: https://[domain]/services/warrant-bail-bonds/ — Outstanding warrant resolution
-- Service Areas: https://[domain]/service-areas/ — Full South Florida coverage map
+- Service Areas: https://[domain]/areas/ — Full South Florida coverage map
 - FAQ: https://[domain]/faq/ — Common bail bond questions answered
 - Contact: https://[domain]/contact/ — 24/7 contact form and direct phone
 
