@@ -1,0 +1,72 @@
+# Mad Extra Bail Bonds
+
+Licensed bail bondsman in Delray Beach, FL specializing in fast bail bond services across Palm Beach County, Broward County, and Miami-Dade County — available 24 hours a day, 7 days a week.
+
+## Business Information
+- Business Name: Mad Extra Bail Bonds
+- Phone: [TODO: populate from client]
+- Email: [TODO: populate from client]
+- Address: 110 SW 6th St, Delray Beach, FL 33444
+- Hours: Monday–Sunday, 24 Hours (Always Available)
+- Service Area: Palm Beach County, Broward County, Miami-Dade County, South Florida
+- Licensed: Yes — Florida Department of Financial Services licensed bail bondsman
+- Founded: 2015
+- Years in Business: 11+
+
+## Services
+- Bail Bond Services
+- DUI Bail Bonds
+- Drug Charge Bail Bonds
+- Felony Bail Bonds
+- Misdemeanor Bail Bonds
+- Federal Bail Bonds
+- Immigration Bail Bonds
+- Warrant & Traffic Bonds
+
+## Service Areas
+
+### Palm Beach County
+- Delray Beach, FL (primary office)
+- Boca Raton, FL
+- West Palm Beach, FL
+- Boynton Beach, FL
+- Lake Worth Beach, FL
+- Palm Beach Gardens, FL
+
+### Broward County
+- Fort Lauderdale, FL
+- Pompano Beach, FL
+- Deerfield Beach, FL
+- Coral Springs, FL
+- Hollywood, FL
+- Margate, FL
+
+### Miami-Dade County
+- Miami, FL
+- Hialeah, FL
+- Miami Gardens, FL
+
+## Pages
+- Home: https://[domain]/ — Bail bonds near me in South Florida, 24/7 service overview
+- About: https://[domain]/about/ — Company history, 11+ years of service, coverage area
+- Services: https://[domain]/services/ — All bail bond services listing
+- Bail Bond Services: https://[domain]/services/bail-bonds/ — General bail bond assistance
+- DUI Bail Bonds: https://[domain]/services/dui-bail-bonds/ — Bail bonds for DUI arrests
+- Drug Charge Bail Bonds: https://[domain]/services/drug-charge-bail-bonds/ — Bail bonds for drug possession and trafficking
+- Felony Bail Bonds: https://[domain]/services/felony-bail-bonds/ — High-bail felony bond services
+- Misdemeanor Bail Bonds: https://[domain]/services/misdemeanor-bail-bonds/ — Fast misdemeanor releases
+- Federal Bail Bonds: https://[domain]/services/federal-bail-bonds/ — Federal court bail bond services
+- Immigration Bail Bonds: https://[domain]/services/immigration-bail-bonds/ — ICE detention and immigration bonds
+- Warrant & Traffic Bonds: https://[domain]/services/warrant-bail-bonds/ — Outstanding warrant resolution
+- Service Areas: https://[domain]/service-areas/ — Full South Florida coverage map
+- FAQ: https://[domain]/faq/ — Common bail bond questions answered
+- Contact: https://[domain]/contact/ — 24/7 contact form and direct phone
+
+## About
+Mad Extra Bail Bonds is a licensed Florida bail bondsman based in Delray Beach serving South Florida families for over 11 years. We post bail across Palm Beach County, Broward County, and Miami-Dade County — covering county main jails, city lockups, and federal holding facilities. We are available 24 hours a day, 7 days a week, with no answering machines and no delays. Beyond posting bond, we provide educational guidance to help families understand the process and take proactive steps to avoid future law enforcement encounters.
+
+## Legal
+- Privacy Policy: https://[domain]/privacy-policy/ — How we collect, use, and protect customer information
+- Terms of Service: https://[domain]/terms/ — Terms governing use of our website and bail bond services
+- Cookie Policy: https://[domain]/cookie-policy/ — How we use cookies and tracking technologies
+- Accessibility Statement: https://[domain]/accessibility/ — Our WCAG 2.1 AA conformance commitment
