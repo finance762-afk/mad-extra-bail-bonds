@@ -36,7 +36,7 @@ foreach ($services as $svc) {
     $_schemaServices[] = [
         '@type'       => 'Offer',
         'itemOffered' => [
-            '@type'       => 'LegalService',
+            '@type'       => 'Attorney',
             'name'        => $svc['name'],
             'url'         => $siteUrl . '/services/' . $svc['slug'] . '/',
             'description' => $svc['description'],
@@ -111,7 +111,7 @@ foreach ($services as $svc) {
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LegalService",
+    "@type": "Attorney",
     "@id": "<?php echo $siteUrl; ?>/#organization",
     "name": "<?php echo htmlspecialchars($siteName); ?>",
     "url": "<?php echo $siteUrl; ?>/",
