@@ -165,5 +165,6 @@ foreach ($services as $svc) {
   </script>
 <?php endif; ?>
 
+<?php require_once __DIR__ . '/edit-mode.php'; ?>
 </head>
 <body>
