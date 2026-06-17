@@ -60,15 +60,79 @@ $primaryKeyword    = 'Bail Bonds Near Me';
 $secondaryKeywords = [];  // TODO: populate from SERP research
 
 // ── Services ─────────────────────────────────────────────────
-// NOTE: No services were specified in the intake build plan.
-// TODO: Populate with client-confirmed service list.
-$services = [];
+$services = [
+    [
+        'slug'        => 'bail-bonds',
+        'name'        => 'Bail Bond Services',
+        'description' => 'Fast bail bond services for any criminal charge. We work directly with the jail to secure release as quickly as possible, 24 hours a day.',
+        'icon'        => 'shield',
+    ],
+    [
+        'slug'        => 'dui-bail-bonds',
+        'name'        => 'DUI Bail Bonds',
+        'description' => 'Immediate DUI bail bond assistance to get your loved one home fast. We know DUI bail timelines and move with urgency.',
+        'icon'        => 'car',
+    ],
+    [
+        'slug'        => 'drug-charge-bail-bonds',
+        'name'        => 'Drug Charge Bail Bonds',
+        'description' => 'Bail bonds for drug possession, trafficking, and related charges. Confidential, discreet, and fast processing across South Florida.',
+        'icon'        => 'alert-triangle',
+    ],
+    [
+        'slug'        => 'felony-bail-bonds',
+        'name'        => 'Felony Bail Bonds',
+        'description' => 'Felony charges carry higher bond amounts — we have the experience and relationships to move quickly when the stakes are highest.',
+        'icon'        => 'gavel',
+    ],
+    [
+        'slug'        => 'misdemeanor-bail-bonds',
+        'name'        => 'Misdemeanor Bail Bonds',
+        'description' => 'Fast, affordable bail bonds for misdemeanor charges. Most misdemeanor releases happen within hours of contact.',
+        'icon'        => 'file-text',
+    ],
+    [
+        'slug'        => 'federal-bail-bonds',
+        'name'        => 'Federal Bail Bonds',
+        'description' => 'Federal bail bonds for charges in federal court. More complex cases handled with the experience required at the federal level.',
+        'icon'        => 'landmark',
+    ],
+    [
+        'slug'        => 'immigration-bail-bonds',
+        'name'        => 'Immigration Bail Bonds',
+        'description' => 'ICE detention and immigration bail bonds for detained individuals. We serve Miami-Dade and surrounding immigrant communities.',
+        'icon'        => 'globe',
+    ],
+    [
+        'slug'        => 'warrant-bail-bonds',
+        'name'        => 'Warrant & Traffic Bonds',
+        'description' => 'Outstanding warrants and traffic-related bonds handled quickly. Get right with the court before a warrant becomes a bigger problem.',
+        'icon'        => 'file-warning',
+    ],
+];
 
 // ── Service Areas ────────────────────────────────────────────
-// NOTE: No service areas were specified in the intake build plan.
-// TODO: Populate with client-confirmed service area list.
-// Address is Delray Beach, FL; description mentions Miami-Dade County.
-$serviceAreas = [];
+// 50-mile radius from Delray Beach, FL covers Palm Beach, Broward, and Miami-Dade counties.
+$serviceAreas = [
+    // Palm Beach County
+    ['slug' => 'delray-beach',       'name' => 'Delray Beach',       'county' => 'Palm Beach County'],
+    ['slug' => 'boca-raton',         'name' => 'Boca Raton',         'county' => 'Palm Beach County'],
+    ['slug' => 'west-palm-beach',    'name' => 'West Palm Beach',    'county' => 'Palm Beach County'],
+    ['slug' => 'boynton-beach',      'name' => 'Boynton Beach',      'county' => 'Palm Beach County'],
+    ['slug' => 'lake-worth-beach',   'name' => 'Lake Worth Beach',   'county' => 'Palm Beach County'],
+    ['slug' => 'palm-beach-gardens', 'name' => 'Palm Beach Gardens', 'county' => 'Palm Beach County'],
+    // Broward County
+    ['slug' => 'fort-lauderdale',    'name' => 'Fort Lauderdale',    'county' => 'Broward County'],
+    ['slug' => 'pompano-beach',      'name' => 'Pompano Beach',      'county' => 'Broward County'],
+    ['slug' => 'deerfield-beach',    'name' => 'Deerfield Beach',    'county' => 'Broward County'],
+    ['slug' => 'coral-springs',      'name' => 'Coral Springs',      'county' => 'Broward County'],
+    ['slug' => 'hollywood',          'name' => 'Hollywood',          'county' => 'Broward County'],
+    ['slug' => 'margate',            'name' => 'Margate',            'county' => 'Broward County'],
+    // Miami-Dade County
+    ['slug' => 'miami',              'name' => 'Miami',              'county' => 'Miami-Dade County'],
+    ['slug' => 'hialeah',            'name' => 'Hialeah',            'county' => 'Miami-Dade County'],
+    ['slug' => 'miami-gardens',      'name' => 'Miami Gardens',      'county' => 'Miami-Dade County'],
+];
 
 // ── Social Links ─────────────────────────────────────────────
 $socialLinks = [
