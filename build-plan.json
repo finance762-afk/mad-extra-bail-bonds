@@ -1,0 +1,120 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 50,
+    "primary_keyword": "Bail Bonds Near Me",
+    "secondary_keywords": []
+  },
+  "tier": "premium",
+  "email": "",
+  "pages": [],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/mad-extra-bail-bonds/logo/1781702183759-kbpr9j-MADEXTRALOGO.png",
+      "storage_path": "mad-extra-bail-bonds/logo/1781702183759-kbpr9j-MADEXTRALOGO.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/mad-extra-bail-bonds/logo/1781702183759-kbpr9j-MADEXTRALOGO.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "mad-extra-bail-bonds/logo/1781702183759-kbpr9j-MADEXTRALOGO.png",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/mad-extra-bail-bonds/logo/1781702183759-kbpr9j-MADEXTRALOGO.png",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "Client wants a kick ass website that will grab attention to anyone who comes across it super modern design, bright flashy bold colors and dark with neon accents ",
+    "style": "bold",
+    "colors": {
+      "accent": "#f9b73e",
+      "secondary": "#e535e7"
+    },
+    "logo_analysis": {}
+  },
+  "domain": "mad-extra-bail-bonds",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "33444",
+    "city": "Delray Beach",
+    "state": "FL",
+    "street": "110 Sw 6th st"
+  },
+  "content": {
+    "usps": [
+      "Licensed"
+    ],
+    "years": 11,
+    "insurance": "",
+    "description": "Mad Extra Bail Bonds has been serving Miami-Dade County and surrounding areas for over 30 years, building a trusted reputation as a partner for families facing one of life's most challenging moments. With deep roots in the community, we've helped countless individuals and their loved ones navigate the bail bond process with professionalism and compassion.\n\nWe go beyond traditional bail bond services. Our mission is to help families move forward by combining professional bail bond assistance with educational guidance on decision-making and proactive steps to reduce future law enforcement encounters. We understand that a legal emergency affects the entire family, and we're committed to supporting you through that difficult time.\n\nOur success is built on the trust our clients place in us. We genuinely value our customers' feedback and take pride in the relationships we've built across the community. When you need bail bond services in Miami-Dade County, you can count on Mad Extra Bail Bonds' experience and integrity.",
+    "certifications": [
+      "WeGonFindYou"
+    ]
+  },
+  "reviews": [],
+  "tagline": "we'll keep you out of jail long enough to bang your wife one more time",
+  "industry": "legal",
+  "services": [],
+  "owner_name": "",
+  "client_slug": "mad-extra-bail-bonds",
+  "form_action": "https://design.pageone.cloud/api/leads/mad-extra-bail-bonds",
+  "github_repo": "",
+  "company_name": "mad-extra-bail-bonds",
+  "service_areas": [],
+  "image_curation": null,
+  "research_brief": null,
+  "competitor_urls": [
+    "https://www.faroybail.com/",
+    "http://www.bondsrusbailbonds.com/",
+    "https://www.thebailbondfirm.com/"
+  ],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [],
+    "grouped_count": 0,
+    "original_count": 0
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}

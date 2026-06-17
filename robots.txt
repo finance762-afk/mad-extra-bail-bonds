@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://precision-plumbingsolutions.com/sitemap.xml
