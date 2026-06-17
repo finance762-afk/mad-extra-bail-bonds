@@ -112,6 +112,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  /* === Cookie Banner === */
+  var cookieBanner = document.getElementById('cookie-banner');
+  var cookieDismiss = document.getElementById('cookie-dismiss');
+  if (cookieBanner && cookieDismiss) {
+    if (!localStorage.getItem('cookie-consent')) {
+      setTimeout(function() { cookieBanner.classList.add('is-visible'); }, 1200);
+    }
+    cookieDismiss.addEventListener('click', function() {
+      cookieBanner.classList.remove('is-visible');
+      localStorage.setItem('cookie-consent', '1');
+    });
+  }
+
   /* === Swiper Carousel Init for .reviews-swiper === */
   if (typeof Swiper !== 'undefined') {
     var reviewsSwiper = document.querySelector('.reviews-swiper');
