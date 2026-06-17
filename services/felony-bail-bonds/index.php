@@ -987,7 +987,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="intro-fel-inner">
       <span class="fel-section-eyebrow">About This Service</span>
       <h2>How much does a felony bail bond cost in South Florida?</h2>
-      <div class="answer-block-fel">
+      <div class="answer-block answer-block-fel">
         <p>Felony bail amounts in South Florida are set by judges at first appearance — typically within 24 hours of arrest. Amounts range from $10,000 for lower-level felonies to $500,000 or more for violent or capital offenses. Florida law sets the bondsman's premium at exactly 10% of the bond amount. For large bonds, collateral such as real estate equity may be required or offered.</p>
       </div>
       <p class="prose">Mad Extra Bail Bonds has handled felony bail bonds across South Florida for over 11 years. We know the Palm Beach County Jail in West Palm Beach, the Broward County Main Jail in Fort Lauderdale, and the Turner Guilford Knight Correctional Center in Miami-Dade — including the booking timelines, shift changes, and release procedures at each facility.</p>

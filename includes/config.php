@@ -146,7 +146,7 @@ $consentVersion = 'v2.1';
 
 // ── CSS Cache Busting ─────────────────────────────────────────
 // Increment on every framework.css / styles change.
-$cssVersion = '1';
+$cssVersion = '2';
 
 // ── Lead Notification ─────────────────────────────────────────
 $leadNotificationEmail = '';  // TODO: populate from client

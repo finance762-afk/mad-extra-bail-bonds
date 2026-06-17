@@ -686,7 +686,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="intro-misd-inner">
       <span class="misd-section-eyebrow">About This Service</span>
       <h2>How much does a misdemeanor bail bond cost in South Florida?</h2>
-      <div class="answer-block-misd">
+      <div class="answer-block answer-block-misd">
         <p>Misdemeanor bail amounts in South Florida typically range from $250 to $5,000 depending on the charge and the defendant's record. Florida sets the bondsman's premium at exactly 10% of the bond amount — so most misdemeanor bonds cost $25 to $500 in premium. No collateral is required in most cases, and no hidden fees. Payment is straightforward and fast.</p>
       </div>
       <p class="prose">Mad Extra Bail Bonds handles misdemeanor bail bonds across Delray Beach and all of South Florida — from first-degree misdemeanors like simple battery and domestic incidents to second-degree charges like petty theft, disorderly conduct, and trespassing. We know the release timelines at each facility and begin your paperwork the moment you call.</p>

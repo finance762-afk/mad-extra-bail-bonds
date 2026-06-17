@@ -225,6 +225,22 @@ section { padding: var(--space-16) 0; }
 .section-header h2 { margin-bottom: var(--space-4); }
 .section-header p { color: var(--color-gray); max-width: 600px; margin: 0 auto; }
 
+/* === AEO Answer Block (global baseline — page <style> blocks override per page) === */
+.answer-block {
+  background: linear-gradient(135deg, rgba(229,53,231,0.07), rgba(249,183,62,0.04));
+  border-left: 3px solid var(--color-secondary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-6);
+}
+.answer-block p {
+  font-size: 0.95rem;
+  color: var(--color-dark);
+  line-height: 1.8;
+  margin: 0;
+  font-style: italic;
+}
+
 /* === Service Cards === */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); }
 .service-card {

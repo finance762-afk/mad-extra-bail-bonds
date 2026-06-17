@@ -597,7 +597,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="intro-fed-inner">
       <span class="fed-section-eyebrow">About This Service</span>
       <h2>How do federal bail bonds work differently from state bonds in South Florida?</h2>
-      <div class="answer-block-fed">
+      <div class="answer-block answer-block-fed">
         <p>Federal bail is governed by the Bail Reform Act of 1984 — not Florida state law. A federal magistrate judge holds a separate detention hearing to decide release conditions. There is no preset bail schedule; amounts can be far higher than state bonds. The federal premium is typically 10–15% of the bond amount, and collateral is nearly always required for significant federal cases.</p>
       </div>
       <div class="fed-info-card">

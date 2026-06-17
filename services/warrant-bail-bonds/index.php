@@ -573,7 +573,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="intro-war-inner">
       <span class="war-section-eyebrow">Why Voluntary Surrender Wins</span>
       <h2>Is it better to turn yourself in on a warrant or wait to be arrested in South Florida?</h2>
-      <div class="answer-block-war">
+      <div class="answer-block answer-block-war">
         <p>Voluntary surrender is almost always the better option. You control the timing, arrive with a bondsman ready to post your bail, avoid an embarrassing public arrest, and demonstrate good faith to the judge. Waiting to be discovered — at a traffic stop, at work, or at home — means no control over when or where it happens and potentially a much longer wait in jail before bond can even be arranged.</p>
       </div>
 

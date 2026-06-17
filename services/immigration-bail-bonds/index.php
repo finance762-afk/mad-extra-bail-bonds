@@ -557,7 +557,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="intro-imm-inner">
       <span class="imm-section-eyebrow">About Immigration Bonds</span>
       <h2>What is an immigration bail bond and who qualifies for one in South Florida?</h2>
-      <div class="answer-block-imm">
+      <div class="answer-block answer-block-imm">
         <p>An immigration bail bond is a surety bond paid to ICE to release a detainee while their immigration case is pending. An Immigration Judge or ICE officer sets the bond amount — not a state court. Not all detainees are bond-eligible; people with certain criminal convictions or classified as flight risks may be denied bond. For those who do qualify, bond amounts typically range from $1,500 to $10,000 or more depending on the case.</p>
       </div>
       <div class="imm-notice-card">

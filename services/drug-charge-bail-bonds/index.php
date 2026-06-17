@@ -1012,7 +1012,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="intro-drug-inner">
       <span class="drug-section-eyebrow">About This Service</span>
       <h2>How much does a drug charge bail bond cost in South Florida?</h2>
-      <div class="answer-block-drug">
+      <div class="answer-block answer-block-drug">
         <p>Drug charge bail amounts in South Florida range widely: simple marijuana possession may carry a $1,000–$5,000 bond; trafficking charges can reach $25,000 to $500,000 or higher. Florida law sets the bondsman's premium at exactly 10% of the court-ordered bail amount — identical statewide from Delray Beach to Miami. Payment plans may be available for qualifying situations.</p>
       </div>
       <p class="prose">Mad Extra Bail Bonds has handled drug charge bail bonds across South Florida for over 11 years — from simple possession cases at the Palm Beach County Jail in West Palm Beach to serious trafficking charges at the Federal Detention Center in Miami. Every case is handled personally with full confidentiality.</p>
