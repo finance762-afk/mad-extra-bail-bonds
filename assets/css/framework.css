@@ -50,7 +50,7 @@
 
   /* Layout */
   --max-width: 1200px;
-  --nav-height: 72px;
+  --nav-height: 80px;
 
   /* Typography */
   --font-heading: 'Montserrat', sans-serif;
@@ -167,8 +167,26 @@ p { margin-bottom: var(--space-4); }
   box-shadow: 0 2px 20px rgba(0,0,0,0.15); padding: var(--space-2) 0;
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; }
-.site-logo { height: 45px; width: auto; }
-.site-logo img { height: 100%; width: auto; }
+.site-logo { height: auto; display: flex; align-items: center; text-decoration: none; }
+.site-logo img { height: 56px; width: auto; }
+/* Text-based logo (used when image logo shows incorrect branding) */
+.nav-text-logo { display: inline-flex; flex-direction: column; line-height: 1.15; gap: 0; }
+.nav-text-logo__main {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.nav-text-logo__sub {
+  font-family: var(--font-heading);
+  font-size: 0.45rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  color: var(--color-secondary);
+}
 .nav-links { display: flex; align-items: center; gap: var(--space-6); list-style: none; }
 .nav-links a { color: var(--color-white); font-family: var(--font-heading); font-size: var(--font-size-sm); font-weight: 500; transition: opacity var(--transition-fast); }
 .nav-links a:hover { opacity: 0.8; color: var(--color-white); }
@@ -344,6 +362,38 @@ section { padding: var(--space-16) 0; }
 .footer-col ul a:hover { color: var(--color-accent); }
 .footer-col p { font-size: var(--font-size-sm); line-height: 1.8; }
 .footer-col .contact-item { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2); font-size: var(--font-size-sm); }
+
+/* County accordion dropdowns in Service Areas column */
+.footer-county-dropdown { border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 0; }
+.footer-county-dropdown summary {
+  list-style: none;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--space-3) 0;
+  font-size: var(--font-size-xs); text-transform: uppercase; letter-spacing: 1px;
+  color: var(--color-accent); font-weight: 600;
+  cursor: pointer; user-select: none;
+  transition: color var(--transition-fast);
+}
+.footer-county-dropdown summary::-webkit-details-marker { display: none; }
+.footer-county-dropdown summary::after {
+  content: '';
+  display: inline-block;
+  width: 10px; height: 10px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform var(--transition-fast);
+  flex-shrink: 0;
+}
+.footer-county-dropdown[open] summary::after { transform: rotate(-135deg); }
+.footer-county-dropdown summary:hover { color: var(--color-white); }
+.footer-county-dropdown ul {
+  padding: var(--space-2) 0 var(--space-3) var(--space-3);
+  list-style: none;
+}
+.footer-county-dropdown ul li { margin-bottom: var(--space-2); }
+.footer-county-dropdown ul a { color: rgba(255,255,255,0.7); font-size: var(--font-size-sm); transition: color var(--transition-fast); }
+.footer-county-dropdown ul a:hover { color: var(--color-accent); }
 
 /* AEO Entity Block */
 .aeo-entity { background: rgba(255,255,255,0.05); border-radius: var(--radius-md); padding: var(--space-4); margin-top: var(--space-4); }

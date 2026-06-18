@@ -1,215 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Mad Extra Bail Bonds | Delray Beach, FL | Page One Insights v6.1 -->
-<!-- TODO: Replace [domain] with the live domain (e.g., madextrabailbonds.com) before launch -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- ═══ MAIN PAGES ═══ -->
   <url>
-    <loc>https://[domain]/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://bailbonds.madextraseo.com/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://[domain]/about/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/contact/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/faq/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 
-  <!-- ═══ SERVICES ═══ -->
   <url>
-    <loc>https://[domain]/services/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/services/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/services/bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/dui-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/drug-charge-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/felony-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/misdemeanor-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/federal-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/immigration-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://[domain]/services/warrant-bail-bonds/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/404/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- ═══ SERVICE AREAS ═══ -->
   <url>
-    <loc>https://[domain]/areas/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/about/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Palm Beach County -->
+
   <url>
-    <loc>https://[domain]/areas/delray-beach/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/accessibility/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/boca-raton/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/west-palm-beach/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/boca-raton/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/boynton-beach/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/boynton-beach/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/lake-worth-beach/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/coral-springs/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/palm-beach-gardens/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/deerfield-beach/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-  <!-- Broward County -->
+
   <url>
-    <loc>https://[domain]/areas/fort-lauderdale/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/delray-beach/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/pompano-beach/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/fort-lauderdale/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/deerfield-beach/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/hialeah/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/coral-springs/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/hollywood/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/hollywood/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/lake-worth-beach/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/margate/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/margate/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-  <!-- Miami-Dade County -->
+
   <url>
-    <loc>https://[domain]/areas/miami/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/miami-gardens/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/hialeah/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/miami/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/areas/miami-gardens/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <loc>https://bailbonds.madextraseo.com/areas/palm-beach-gardens/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/areas/pompano-beach/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/areas/west-palm-beach/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/contact/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/cookie-policy/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/faq/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/privacy-policy/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/service-areas/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/terms/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/thank-you/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/services/bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- ═══ LEGAL / COMPLIANCE (priority 0.3, yearly) ═══ -->
   <url>
-    <loc>https://[domain]/privacy-policy/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://bailbonds.madextraseo.com/services/drug-charge-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/terms/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://bailbonds.madextraseo.com/services/dui-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/cookie-policy/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://bailbonds.madextraseo.com/services/federal-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://[domain]/accessibility/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://bailbonds.madextraseo.com/services/felony-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/services/immigration-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/services/misdemeanor-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bailbonds.madextraseo.com/services/warrant-bail-bonds/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

@@ -283,7 +283,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   left: 0;
   width: 88%;
   height: 88%;
-  background: linear-gradient(135deg, #09090f 0%, #1c0830 100%);
+  background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&h=600&q=80');
+  background-size: cover;
+  background-position: center;
   border-radius: 20px;
   padding: var(--space-8);
   border: 1px solid rgba(255,255,255,0.09);
@@ -292,11 +294,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .story-card-main::before {
   content: '';
   position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(9,9,15,0.91) 0%, rgba(28,8,48,0.87) 100%);
+  border-radius: 20px;
+  z-index: 0;
+  pointer-events: none;
+}
+.story-card-main::after {
+  content: '';
+  position: absolute;
   top: -80px; right: -80px;
   width: 280px; height: 280px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(229,53,231,0.18) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(229,53,231,0.2) 0%, transparent 70%);
   pointer-events: none;
+  z-index: 1;
 }
 .scm-logo {
   font-family: var(--font-heading);
@@ -305,7 +317,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   color: var(--color-white);
   margin-bottom: var(--space-6);
   position: relative;
-  z-index: 1;
+  z-index: 2;
   line-height: 1.2;
 }
 .scm-logo span { color: var(--color-secondary); }
@@ -314,7 +326,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   flex-direction: column;
   gap: var(--space-4);
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 .scm-item {
   display: flex;

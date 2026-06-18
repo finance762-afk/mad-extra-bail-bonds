@@ -496,16 +496,27 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .svc-card-home:hover::after { transform: scaleX(1); }
 
 .svc-banner {
-  height: 110px;
+  height: 160px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #09090f;
 }
-.svc-card-home.t1 .svc-banner { background: linear-gradient(145deg, #09090f 0%, #1e0a2e 100%); }
-.svc-card-home.t2 .svc-banner { background: linear-gradient(145deg, #0d1520 0%, #1a2b3c 100%); }
-.svc-card-home.t3 .svc-banner { background: linear-gradient(145deg, #130610 0%, #2a0a2a 100%); }
+.svc-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.svc-card-home.t1 .svc-banner::before { background: linear-gradient(145deg, rgba(9,9,15,0.52) 0%, rgba(30,10,46,0.48) 100%); }
+.svc-card-home.t2 .svc-banner::before { background: linear-gradient(145deg, rgba(13,21,32,0.52) 0%, rgba(26,43,60,0.48) 100%); }
+.svc-card-home.t3 .svc-banner::before { background: linear-gradient(145deg, rgba(19,6,16,0.52) 0%, rgba(42,10,42,0.48) 100%); }
 .svc-icon-ring {
+  position: relative;
+  z-index: 1;
   width: 56px; height: 56px;
   border-radius: 50%;
   border: 1px solid rgba(255,255,255,0.15);
@@ -1308,7 +1319,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         $tint = $tints[$i % 3];
       ?>
       <article class="svc-card-home <?php echo $tint; ?>" data-animate data-delay="<?php echo min($i % 4 + 1, 4); ?>">
-        <div class="svc-banner">
+        <div class="svc-banner"<?php if (!empty($svc['image'])): ?> style="background-image:url('<?php echo htmlspecialchars($svc['image']); ?>')"<?php endif; ?>>
           <div class="svc-icon-ring">
             <?php echo lucide_icon($svc['icon']); ?>
           </div>
@@ -1381,8 +1392,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="about-visual-wrap" data-animate="left">
         <div class="about-dark-card">
           <div class="about-logo-block">
-            <img src="<?php echo htmlspecialchars($logoUrl); ?>"
-                 alt="Mad Extra Bail Bonds logo"
+            <img src="<?php echo htmlspecialchars($logoUrl ?? ''); ?>"
+                 alt="Mad Extra Bail Bonds"
                  width="180" height="100"
                  loading="lazy">
           </div>
@@ -1422,7 +1433,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <!-- AEO Answer Block -->
         <div class="answer-block">
-          <p>Mad Extra Bail Bonds is a licensed Florida bail bondsman based at <?php echo htmlspecialchars($address['street']); ?>, Delray Beach, FL <?php echo htmlspecialchars($address['zip']); ?>, serving families across Palm Beach County, Broward County, and Miami-Dade County for over <?php echo $yearsInBusiness; ?> years. We are available 24 hours a day, 7 days a week — no recording, no call center, just real help when your family needs it most.</p>
+          <p>Mad Extra Bail Bonds is a licensed Florida bail bondsman based in Delray Beach, FL, serving families across Palm Beach County, Broward County, and Miami-Dade County for over <?php echo $yearsInBusiness; ?> years. We are available 24 hours a day, 7 days a week — no recording, no call center, just real help when your family needs it most.</p>
         </div>
 
         <p>

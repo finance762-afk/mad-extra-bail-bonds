@@ -66,7 +66,7 @@ $_phoneRaw = preg_replace('/\D/', '', $phone);
               <meta itemprop="url"       content="<?php echo $siteUrl; ?>/">
               <meta itemprop="telephone" content="<?php echo htmlspecialchars($phone); ?>">
               <strong itemprop="name"><?php echo htmlspecialchars($siteName); ?></strong> is a licensed bail bondsman
-              based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?><?php if (!empty($address['zip'])): ?> <?php echo htmlspecialchars($address['zip']); ?><?php endif; ?>,
+              based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?>,
               serving Palm Beach County, Broward County, and Miami-Dade County with fast, professional bail bond services since <?php echo $yearEstablished; ?>. Available 24 hours a day, 7 days a week.
             </div>
           </div><!-- /Col 1 -->
@@ -89,18 +89,18 @@ $_phoneRaw = preg_replace('/\D/', '', $phone);
             </ul>
           </div><!-- /Col 2 -->
 
-          <!-- Col 3: Service Areas by County -->
+          <!-- Col 3: Service Areas by County (accordion dropdowns) -->
           <div class="footer-col">
             <h4>Service Areas</h4>
             <?php foreach ($_areasByCounty as $county => $areas): ?>
-            <p style="font-size:var(--font-size-xs);text-transform:uppercase;letter-spacing:1px;color:var(--color-accent);margin:var(--space-3) 0 var(--space-2)">
-              <?php echo htmlspecialchars($county); ?>
-            </p>
-            <ul>
-              <?php foreach ($areas as $area): ?>
-              <li><a href="/areas/<?php echo htmlspecialchars($area['slug']); ?>/"><?php echo htmlspecialchars($area['name']); ?></a></li>
-              <?php endforeach; ?>
-            </ul>
+            <details class="footer-county-dropdown">
+              <summary><?php echo htmlspecialchars($county); ?></summary>
+              <ul>
+                <?php foreach ($areas as $area): ?>
+                <li><a href="/areas/<?php echo htmlspecialchars($area['slug']); ?>/"><?php echo htmlspecialchars($area['name']); ?></a></li>
+                <?php endforeach; ?>
+              </ul>
+            </details>
             <?php endforeach; ?>
           </div><!-- /Col 3 -->
 
@@ -124,14 +124,6 @@ $_phoneRaw = preg_replace('/\D/', '', $phone);
               <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a>
             </div>
             <?php endif; ?>
-
-            <div class="footer-contact-item">
-              <?php echo $GLOBALS['LUCIDE_ICONS']['map-pin']; ?>
-              <address style="font-style:normal">
-                <?php if (!empty($address['street'])): ?><?php echo htmlspecialchars($address['street']); ?><br><?php endif; ?>
-                <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?>
-              </address>
-            </div>
 
             <div class="footer-contact-item">
               <?php echo $GLOBALS['LUCIDE_ICONS']['clock']; ?>
@@ -177,6 +169,10 @@ $_phoneRaw = preg_replace('/\D/', '', $phone);
           <p class="footer-credit" style="margin:0">
             <a href="https://pageoneinsights.com" rel="dofollow" target="_blank">
               Web Design &amp; Hosting by Page One Insights, LLC
+            </a>
+            &nbsp;|&nbsp;
+            <a href="https://madextraseo.com/" rel="dofollow" target="_blank">
+              SEO by Mad Extra SEO
             </a>
           </p>
         </div>

@@ -120,7 +120,6 @@ foreach ($services as $svc) {
     "description": "<?php echo htmlspecialchars($businessDescription); ?>",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "<?php echo htmlspecialchars($address['street']); ?>",
       "addressLocality": "<?php echo htmlspecialchars($address['city']); ?>",
       "addressRegion": "<?php echo htmlspecialchars($address['state']); ?>",
       "postalCode": "<?php echo htmlspecialchars($address['zip']); ?>",

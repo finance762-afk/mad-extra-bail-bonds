@@ -685,13 +685,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             </div>
             <?php endif; ?>
             <div class="cic-item">
-              <div class="cic-icon"><?php echo lucide_icon('map-pin'); ?></div>
-              <div class="cic-text">
-                <strong>Address</strong>
-                <span><?php echo htmlspecialchars($address['street']); ?>, <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?></span>
-              </div>
-            </div>
-            <div class="cic-item">
               <div class="cic-icon"><?php echo lucide_icon('clock'); ?></div>
               <div class="cic-text">
                 <strong>Hours</strong>

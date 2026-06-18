@@ -172,7 +172,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <h2>8. Contact Us</h2>
   <p>
     <strong><?php echo htmlspecialchars($siteName); ?></strong><br>
-    <?php echo htmlspecialchars($address['street']); ?>, <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?><br>
+    <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?><br>
     <?php if (!empty($phone)): ?>Phone: <a href="tel:<?php echo preg_replace('/\D/','', $phone); ?>"><?php echo htmlspecialchars($phone); ?></a><br><?php endif; ?>
     <?php if (!empty($email)): ?>Email: <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a><?php endif; ?>
   </p>

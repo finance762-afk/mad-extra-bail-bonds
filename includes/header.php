@@ -20,11 +20,10 @@ if (!function_exists('isActivePage')) {
     <nav class="container header-inner" aria-label="Main navigation">
 
       <!-- Logo -->
-      <a href="/" class="site-logo" aria-label="<?php echo htmlspecialchars($siteName); ?> — Home">
-        <img src="<?php echo htmlspecialchars($logoUrl); ?>"
-             alt="<?php echo htmlspecialchars($siteName); ?> logo"
-             width="160" height="52"
-             loading="eager" fetchpriority="high">
+      <a href="/" class="site-logo" aria-label="Mad Extra Bail Bonds — Home">
+        <img src="<?php echo htmlspecialchars($logoUrl ?? ''); ?>"
+             alt="Mad Extra Bail Bonds"
+             width="640" height="160">
       </a>
 
       <!-- Desktop Nav Links -->

@@ -20,4 +20,4 @@ User-agent: ClaudeBot
 Allow: /
 
 # TODO: Replace [domain] with live domain
-Sitemap: https://[domain]/sitemap.xml
+Sitemap: https://bailbonds.madextraseo.com/sitemap.xml
