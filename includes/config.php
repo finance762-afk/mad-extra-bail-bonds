@@ -167,3 +167,4 @@ $licenseNumber    = '';  // TODO: populate with FL bail bond license number
 
 // ── Business Description ─────────────────────────────────────
 $businessDescription = 'Mad Extra Bail Bonds has been serving South Florida families for over 11 years, providing fast, professional bail bond services across Delray Beach, Miami-Dade County, and surrounding areas. We help families navigate the bail process with experience and compassion — available 24 hours a day, 7 days a week.';
+$leadsFormSecret = 'bac7714a8f41505ab12d75311ccbb11a6374e38b1a010d69111c84a652cfa0f3'; // spam-shield HMAC (matches leads fn LEADS_FORM_SECRET)
