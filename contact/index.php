@@ -631,9 +631,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
               <input type="checkbox" name="terms_accepted" id="contact-terms" value="yes" class="consent-checkbox" required>
               <span class="consent-label">
                 I have read and agree to the
-                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
                 and
-                <a href="/terms/">Terms of Service</a>. <span class="required-star">*</span>
+                <a href="/terms/" target="_blank" rel="noopener">Terms of Service</a>. <span class="required-star">*</span>
               </span>
             </label>
 
@@ -650,7 +650,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <?php echo lucide_icon('send'); ?> Send My Message
           </button>
           <p class="form-disclaimer">
-            By submitting, you agree to our <a href="/privacy-policy/">Privacy Policy</a>.
+            By submitting, you agree to our <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>.
             We will never share your information with third parties for marketing purposes.
           </p>
         </form>

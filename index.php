@@ -1253,7 +1253,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             </div>
             <div class="hfc-check">
               <input type="checkbox" name="terms_accepted" id="hfc-terms" value="yes" required>
-              <label for="hfc-terms">I have read and agree to the <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms/">Terms of Service</a>. <strong>*</strong></label>
+              <label for="hfc-terms">I have read and agree to the <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a> and <a href="/terms/" target="_blank" rel="noopener">Terms of Service</a>. <strong>*</strong></label>
             </div>
           </div>
 
