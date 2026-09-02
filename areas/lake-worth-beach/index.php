@@ -29,7 +29,7 @@ $_serviceSchema = [
     'provider'    => ['@id' => $siteUrl . '/#organization'],
     'areaServed'  => [
         ['@type' => 'City',   'name' => 'Lake Worth Beach, FL'],
-        ['@type' => 'County', 'name' => 'Palm Beach County, FL'],
+        ['@type' => 'AdministrativeArea', 'name' => 'Palm Beach County, FL'],
     ],
     'serviceType' => 'Bail Bond Services',
 ];

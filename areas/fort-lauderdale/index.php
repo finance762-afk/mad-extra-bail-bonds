@@ -29,7 +29,7 @@ $_serviceSchema = [
     'provider'    => ['@id' => $siteUrl . '/#organization'],
     'areaServed'  => [
         ['@type' => 'City',   'name' => 'Fort Lauderdale, FL'],
-        ['@type' => 'County', 'name' => 'Broward County, FL'],
+        ['@type' => 'AdministrativeArea', 'name' => 'Broward County, FL'],
     ],
     'serviceType' => 'Bail Bond Services',
 ];

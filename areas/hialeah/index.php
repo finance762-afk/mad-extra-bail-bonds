@@ -28,7 +28,7 @@ $_serviceSchema = [
     'provider'    => ['@id' => $siteUrl . '/#organization'],
     'areaServed'  => [
         ['@type' => 'City',   'name' => 'Hialeah, FL'],
-        ['@type' => 'County', 'name' => 'Miami-Dade County, FL'],
+        ['@type' => 'AdministrativeArea', 'name' => 'Miami-Dade County, FL'],
     ],
     'serviceType' => 'Bail Bond Services',
 ];
